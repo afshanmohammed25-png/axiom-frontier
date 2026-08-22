@@ -436,8 +436,17 @@ input,textarea{ font-family:inherit; font-size:15px; }
 .qr-img{ width:76px; height:76px; border-radius:8px; border:1px solid var(--grey-line); }
 .qr-block span{ font-size:13.5px; color:var(--grey-text); max-width:150px; }
 .map-box{
-  height:130px; border-radius:var(--radius-s); background:var(--navy-soft);
-  display:flex; align-items:center; justify-content:center; color:var(--navy); font-size:13px; letter-spacing:.04em;
+    height:260px;
+    border-radius:16px;
+    overflow:hidden;
+    border:1px solid var(--grey-line);
+    box-shadow:var(--shadow-s);
+}
+
+.map-box iframe{
+    width:100%;
+    height:100%;
+    border:0;
 }
 
 .contact-form{
