@@ -130,7 +130,7 @@ input,textarea{ font-family:inherit; font-size:15px; }
 }
 .nav{ display:flex; align-items:center; justify-content:space-between; }
 .nav-logo{
-    height: 82px;
+    height: 140px;
     width: auto;
     transition: transform .3s ease, height .35s var(--ease);
 }
@@ -139,6 +139,9 @@ input,textarea{ font-family:inherit; font-size:15px; }
     transform: scale(1.08);
 }
 
+.site-header.scrolled .nav-logo{
+    height: 95px;
+}
 .site-header.scrolled .nav-logo{
     height: 68px;
 }
