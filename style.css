@@ -474,7 +474,7 @@ input,textarea{ font-family:inherit; font-size:15px; }
 }
 
 .contact-form textarea{
-    min-height:180px;
+    min-height:295px;
     resize:none !important;
     overflow:auto;
 }
