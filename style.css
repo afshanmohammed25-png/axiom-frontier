@@ -424,7 +424,12 @@ input,textarea{ font-family:inherit; font-size:15px; }
    Contact
    ========================================================================== */
 .contact-section{ background:var(--grey-bg); }
-.contact-grid{ display:grid; grid-template-columns:.85fr 1.15fr; gap:50px; }
+.contact-grid{
+    display:grid;
+    grid-template-columns:0.9fr 1.3fr;
+    gap:48px;
+    align-items:start;
+}
 .contact-info{ display:flex; flex-direction:column; gap:26px; }
 .contact-item{
   background:var(--white); border-radius:var(--radius-m); padding:24px 26px; border:1px solid var(--grey-line);
