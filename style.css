@@ -130,15 +130,18 @@ input,textarea{ font-family:inherit; font-size:15px; }
 }
 .nav{ display:flex; align-items:center; justify-content:space-between; }
 .nav-logo{
-  .site-header.scrolled .nav-logo{ height:56px; }
-  width: auto;
-  transition: transform .3s ease, height .35s var(--ease);
+    height: 82px;
+    width: auto;
+    transition: transform .3s ease, height .35s var(--ease);
 }
 
 .nav-logo:hover{
-  transform: scale(1.05);
+    transform: scale(1.08);
 }
-.site-header.scrolled .nav-logo{ height:32px; }
+
+.site-header.scrolled .nav-logo{
+    height: 68px;
+}
 
 .nav-links{ display:flex; align-items:center; gap:34px; }
 .nav-link{
