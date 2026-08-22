@@ -462,7 +462,7 @@ input,textarea{ font-family:inherit; font-size:15px; }
 .form-row input, .form-row textarea{
   padding:13px 16px; border:1.5px solid var(--grey-line); border-radius:var(--radius-s);
   background:var(--grey-bg); transition:border-color .3s var(--ease), background .3s var(--ease);
-  resize:vertical;
+  resize: none;
 }
 .form-row input:focus, .form-row textarea:focus{ border-color:var(--navy); background:var(--white); outline:none; }
 .form-note{ margin-top:14px; font-size:13.5px; color:var(--navy); text-align:center; min-height:18px; }
