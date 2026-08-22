@@ -129,7 +129,15 @@ input,textarea{ font-family:inherit; font-size:15px; }
   padding:12px 0;
 }
 .nav{ display:flex; align-items:center; justify-content:space-between; }
-.nav-logo{ height:38px; width:auto; transition:height .35s var(--ease); }
+.nav-logo{
+  .site-header.scrolled .nav-logo{ height:56px; }
+  width: auto;
+  transition: transform .3s ease, height .35s var(--ease);
+}
+
+.nav-logo:hover{
+  transform: scale(1.05);
+}
 .site-header.scrolled .nav-logo{ height:32px; }
 
 .nav-links{ display:flex; align-items:center; gap:34px; }
